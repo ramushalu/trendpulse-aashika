@@ -1,4 +1,4 @@
- import pandas as pd
+import pandas as pd
 import json
 import os
 
@@ -33,6 +33,7 @@ print(f"After removing nulls: {len(df)}")
 
 # 3. Fix data types
 df["score"] = df["score"].astype(int)
+#this shows the type of the dataframe
 df["num_comments"] = df["num_comments"].astype(int)
 
 # 4. Remove low-quality stories (score < 5)
