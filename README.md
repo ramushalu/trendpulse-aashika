@@ -1,0 +1,2 @@
+# trendpulse-aashika
+project
